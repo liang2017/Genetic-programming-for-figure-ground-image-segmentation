@@ -1,0 +1,2 @@
+# Genetic-programming-for-figure-ground-image-segmentation
+This project focuses on figure-ground image segmentation that is transformed to a sub-image segmentation problem. Genetic programming is used to evolve classifiers from simple numeric operators and image features. The evolved classifiers can classify sub-images on a test image (captured by a shifting window) as class foreground/background. Based on the predicted labels of each pixel on a test image, the segmentation result (a binary image) can be generated for this test image.
